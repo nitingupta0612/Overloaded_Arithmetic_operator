@@ -1,5 +1,6 @@
 #include<iostream>
 #include<conio.h>
+#include<math.h>
 using namespace std;
 class FLOAT
 {
@@ -29,10 +30,10 @@ class FLOAT
 };
 int main()
 {
-	FLOAT f1(23.12),f2(20.12);
-	cout<<"\n\n Operator + : "<<f1+f2;
-	cout<<"\n\n Operator - : "<<f1-f2;
-	cout<<"\n\n Operator * : "<<f1*f2;
-	cout<<"\n\n Operator / : "<<f1/f2;
+	FLOAT F1(23.12),F2(20.12);
+	cout<<"\n\n Operator + : "<<F1+F2;
+	cout<<"\n\n Operator - : "<<F1-F2;
+	cout<<"\n\n Operator * : "<<F1*F2;
+	cout<<"\n\n Operator / : "<<F1/F2;
 return 0;
 }
